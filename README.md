@@ -48,6 +48,6 @@ npm run dev
 
 ## 发布
 
-部署目标为 GitHub Pages：`https://aurora1218-ai.github.io/`。发布目录使用构建后的静态文件，包含 `.nojekyll`。个人聊天原文、聊天分析、原始素材目录和工具环境均不属于发布内容。
+部署目标为 GitHub Pages 项目站点：`https://aurora1218-ai.github.io/1st_anniversary/`。`vite.config.ts` 使用 `/1st_anniversary/` 作为资源基路径，发布目录包含 `.nojekyll`。个人主页根地址保持独立；聊天原文、聊天分析、原始素材目录和工具环境均不属于发布内容。
 
-`npm run prepare:publish` 额外生成 `.publish/`，将生产资源平铺并同步改写站内路径，便于从已登录的浏览器一次上传至仓库根目录。源项目保留在本地；字体许可证随站点发布。
+`npm run prepare:publish` 额外生成 `.publish/`，将生产资源平铺并同步改写为项目 Pages 路径，便于从已登录的浏览器一次上传至 `1st_anniversary` 仓库根目录。源项目保留在本地；字体许可证随站点发布。
